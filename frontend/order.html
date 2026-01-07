@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Order Form | MyShop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="logo">MyShop</div>
+</header>
+
+<main class="container">
+  <h2 class="title">Order Details</h2>
+
+  <input id="address" placeholder="Delivery Address">
+  <input id="phone" placeholder="Phone Number">
+
+  <select id="payment">
+    <option>Cash on Delivery</option>
+  </select>
+
+  <button class="buy-btn" onclick="placeOrder()">Confirm Order</button>
+
+  <!-- 🔙 Back to Home -->
+  <a href="index.html" class="back-home">← Go back to Home</a>
+</main>
+
+<footer class="footer">
+  <p>Order will be delivered soon 🚚</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

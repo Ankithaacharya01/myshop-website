@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MyShop | Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="cart-body">
+
+  <!-- HEADER -->
+  <header class="cart-header">
+    <div class="logo">🛒 MyShop</div>
+    <a href="index.html" class="back-link">← Continue Shopping</a>
+  </header>
+
+  <!-- CART CONTAINER -->
+  <main class="cart-wrapper">
+    <h2 class="cart-title">Your Shopping Cart</h2>
+
+    <div id="cart" class="cart-items">
+      <!-- Items load here -->
+    </div>
+
+    <div class="cart-footer">
+      <label for="payment"><strong>Payment Method</strong></label>
+      <select id="payment">
+        <option>Cash on Delivery</option>
+        <option>Online Payment (Demo)</option>
+      </select>
+
+      <button class="order-btn" onclick="placeOrder()">Place Order</button>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="cart-footer-bar">
+    © 2026 MyShop • Secure Payments • Fast Delivery 🚚
+  </footer>
+
+  <!-- JS -->
+  <script src="app.js"></script>
+  <script>
+    loadCart();
+    checkLogin();
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MyShop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="logo">MyShop</div>
+
+  <nav class="nav">
+    <a href="index.html">Home</a>
+   <a href="orders.html">Orders</a>
+
+    <a href="cart.html">Cart 🛒</a>
+
+    <!-- Guest links -->
+    <a href="login.html" id="loginLink">Login</a>
+    <a href="register.html" id="registerLink">Register</a>
+
+    <!-- Logged-in user -->
+    <span id="userName" class="welcome"></span>
+    <a href="#" id="logoutLink" onclick="logout()">Logout</a>
+  </nav>
+</header>
+
+
+
+<!-- MAIN CONTENT -->
+<main class="container">
+  <h2 class="title">Products</h2>
+  <div id="products" class="products-grid"></div>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© 2026 MyShop | Major Project | Cash on Delivery Available</p>
+</footer>
+
+<script src="app.js"></script>
+<script>
+  loadProducts();
+  checkLogin();
+</script>
+
+</body>
+</html>

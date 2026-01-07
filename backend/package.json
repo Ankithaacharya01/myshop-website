@@ -1,0 +1,52 @@
+[
+  {
+    "name": "iPhone 14",
+    "price": 69999,
+    "image": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SX679_.jpg"
+  },
+  {
+    "name": "Samsung Galaxy S23",
+    "price": 74999,
+    "image": "https://m.media-amazon.com/images/I/71OXmy3NMCL._SX679_.jpg"
+  },
+  {
+    "name": "OnePlus 11 5G",
+    "price": 61999,
+    "image": "https://m.media-amazon.com/images/I/61amb0CfMGL._SX679_.jpg"
+  },
+  {
+    "name": "HP Pavilion Laptop",
+    "price": 55999,
+    "image": "https://m.media-amazon.com/images/I/61XTN6jY7ZL._SX679_.jpg"
+  },
+  {
+    "name": "Dell Inspiron Laptop",
+    "price": 58999,
+    "image": "https://m.media-amazon.com/images/I/61fDHkQ6MqL._SX679_.jpg"
+  },
+  {
+    "name": "Apple MacBook Air M1",
+    "price": 89999,
+    "image": "https://m.media-amazon.com/images/I/71jG+e7roXL._SX679_.jpg"
+  },
+  {
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 29999,
+    "image": "https://m.media-amazon.com/images/I/61+btxzpfDL._SX679_.jpg"
+  },
+  {
+    "name": "boAt Rockerz 450",
+    "price": 1499,
+    "image": "https://m.media-amazon.com/images/I/61u1VALn6JL._SX679_.jpg"
+  },
+  {
+    "name": "Apple Watch Series 8",
+    "price": 45999,
+    "image": "https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg"
+  },
+  {
+    "name": "Canon EOS 1500D DSLR Camera",
+    "price": 39999,
+    "image": "https://m.media-amazon.com/images/I/914hFeTU2-L._SX679_.jpg"
+  }
+]
